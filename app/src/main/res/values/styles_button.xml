@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginButton">
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LoginButton.Register">
+        <item name="android:background">@drawable/btn_active_border_selector</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@color/btn_inactive_text_color_selector</item>
+    </style>
+
+    <style name="LoginButton.SignIn">
+        <item name="android:background">@drawable/btn_active_selector</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BeerButton">
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+
+    <style name="BeerButton.Active">
+        <item name="android:background">@drawable/btn_active_selector</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BeerButton.Active.Boarder">
+        <item name="android:background">@drawable/btn_active_border_selector</item>
+        <item name="android:paddingEnd">@dimen/default_padding_margin_large</item>
+        <item name="android:paddingStart">@dimen/default_padding_margin_large</item>
+        <item name="android:textColor">@color/btn_inactive_text_color_selector</item>
+    </style>
+</resources>

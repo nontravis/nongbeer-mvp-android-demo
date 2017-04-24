@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/container_service_unavailable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/default_padding_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/icon_background_size"
+                android:layout_height="@dimen/icon_background_size"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_padding_margin"
+                android:src="@drawable/ic_service_unavailable_72dp"/>
+
+            <TextView
+                style="@style/BeerTextView.DarkGray.Body1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_padding_margin_large"
+                android:gravity="center"
+                android:text="Sorry, something went wrong. Please try again."/>
+
+            <Button
+                android:id="@+id/btn_try_again"
+                style="@style/BeerButton.Active.Boarder"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_button_height"
+                android:layout_gravity="center"
+                android:text="@string/try_again"
+                android:textSize="@dimen/text_title"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</merge>

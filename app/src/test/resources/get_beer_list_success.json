@@ -1,0 +1,487 @@
+{
+  "status": "SUCCESS",
+  "message": "Retrieve the list of beer successfully.",
+  "nextBeerAvailable": true,
+  "beers": [
+    {
+      "id": "000001",
+      "alcohol": "Alc 4.9% vol",
+      "image": "https://www.wishbeer.com/987-large_default/hoegaarden-330-ml-49.jpg",
+      "name": "Hoegaarden",
+      "price": 139,
+      "volume": "330ml"
+    },
+    {
+      "id": "000002",
+      "alcohol": "Alc 8% vol",
+      "image": "https://www.wishbeer.com/1087-large_default/la-trappe-trippel-330-ml-8.jpg",
+      "name": "La Trappe Tripel",
+      "price": 275,
+      "volume": "330ml"
+    },
+    {
+      "id": "000003",
+      "alcohol": "Alc 5% vol",
+      "image": "https://www.wishbeer.com/1941-large_default/phuket-beer-330-ml-5.jpg",
+      "name": "Phuket Beer",
+      "price": 70,
+      "volume": "330ml"
+    },
+    {
+      "id": "000004",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/2109-large_default/hacklberg-jakobi-weissbier-hell.jpg",
+      "name": "Hacklberg Jakobi Weissbier Hell",
+      "price": 199,
+      "volume": "500ml"
+    },
+    {
+      "id": "000005",
+      "alcohol": "Acl 5% vol",
+      "image": "https://www.wishbeer.com/993-large_default/budweiser-355-ml-5.jpg",
+      "name": "Budweiser",
+      "price": 79,
+      "volume": "355ml"
+    },
+    {
+      "id": "000006",
+      "alcohol": "Alc 4.7% vol",
+      "image": "https://www.wishbeer.com/2997-large_default/chalawan-pale-ale-330ml-50.jpg",
+      "name": "Chalawan Pale Ale",
+      "price": 129,
+      "volume": "330ml"
+    },
+    {
+      "id": "000007",
+      "alcohol": "Alc 4.7% vol",
+      "image": "https://www.wishbeer.com/4716-large_default/vedett-extra-white-330-ml-47.jpg",
+      "name": "Vedett Extra White",
+      "price": 170,
+      "volume": "330ml"
+    },
+    {
+      "id": "000008",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/4507-large_default/ballast-point-grunion-355ml-55.jpg",
+      "name": "Ballast Point Grunion",
+      "price": 219,
+      "volume": "355ml"
+    },
+    {
+      "id": "000009",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/1023-large_default/paulaner-hefe-weissbier-naturtrub-500-ml-55.jpg",
+      "name": "Paulaner HefeWeissbier Naturtrub",
+      "price": 158,
+      "volume": "500ml"
+    },
+    {
+      "id": "000010",
+      "alcohol": "Alc 8.5% vol",
+      "image": "https://www.wishbeer.com/1430-large_default/duvel-330-ml-85.jpg",
+      "name": "Duvel",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000011",
+      "alcohol": "Alc 5.3% vol",
+      "image": "https://www.wishbeer.com/1166-large_default/erdinger-weissbier-500-ml-53.jpg",
+      "name": "Erdinger Weissbier",
+      "price": 169,
+      "volume": "500ml"
+    },
+    {
+      "id": "000012",
+      "alcohol": "Alc 8.2% vol",
+      "image": "https://www.wishbeer.com/878-large_default/schneider-weisse-tap5-meine-hopfenweisse-500-ml-82.jpg",
+      "name": "Schneider Weisse TAP5 Meine Hopfenweisse",
+      "price": 200,
+      "volume": "500ml"
+    },
+    {
+      "id": "000013",
+      "alcohol": "Alc 4.6% vol",
+      "image": "https://www.wishbeer.com/1408-large_default/corona-extra-350-ml-46.jpg",
+      "name": "Corona Extra",
+      "price": 140,
+      "volume": "350ml"
+    },
+    {
+      "id": "000014",
+      "alcohol": "Alc 5.3% vol",
+      "image": "https://www.wishbeer.com/3701-large_default/paulaner-hefe-weissbier-dunkel-500-ml-53.jpg",
+      "name": "Paulaner Hefe Weissbier Dunkel",
+      "price": 158,
+      "volume": "500ml"
+    },
+    {
+      "id": "000015",
+      "alcohol": "Alc 5.3% vol",
+      "image": "https://www.wishbeer.com/1168-large_default/erdinger-weissbier-dunkel-500-ml-53.jpg",
+      "name": "Erdinger Weissbier Dunkel",
+      "price": 169,
+      "volume": "500ml"
+    },
+    {
+      "id": "000016",
+      "alcohol": "Alc 4.7% vol",
+      "image": "https://www.wishbeer.com/1016-large_default/fuller-s-london-pride-500-ml-47.jpg",
+      "name": "Fuller's London Pride",
+      "price": 158,
+      "volume": "500ml"
+    },
+    {
+      "id": "000017",
+      "alcohol": "Alc 6.5% vol",
+      "image": "https://www.wishbeer.com/989-large_default/leffe-brune-330-ml-65.jpg",
+      "name": "Leffe Brune",
+      "price": 139,
+      "volume": "330ml"
+    },
+    {
+      "id": "000018",
+      "alcohol": "Alc 7.9% vol",
+      "image": "https://www.wishbeer.com/1026-large_default/paulaner-salvator-330-ml-79.jpg",
+      "name": "Paulaner Salvator",
+      "price": 123,
+      "volume": "330ml"
+    },
+    {
+      "id": "000019",
+      "alcohol": "Alc 8.5% vol",
+      "image": "https://www.wishbeer.com/950-large_default/gouden-carolus-classic-330-ml-85.jpg",
+      "name": "Gouden Carolus Classic",
+      "price": 190,
+      "volume": "330ml"
+    },
+    {
+      "id": "000020",
+      "alcohol": "Alc 8.4% vol",
+      "name": "Tripel Karmeliet",
+      "price": 209,
+      "image": "https://www.wishbeer.com/1026-large_default/paulaner-salvator-330-ml-79.jpg",
+      "volume": "330ml"
+    },
+    {
+      "id": "000021",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/886-large_default/hitachino-nest-white-ale-330-ml-55.jpg",
+      "name": "Hitachino Nest White Ale",
+      "price": 173,
+      "volume": "330ml"
+    },
+    {
+      "id": "000022",
+      "alcohol": "Alc 6.0% vol",
+      "image": "https://www.wishbeer.com/2148-large_default/chouffe-soleil.jpg",
+      "name": "Chouffe Soleil",
+      "price": 169,
+      "volume": "330ml"
+    },
+    {
+      "id": "000023",
+      "alcohol": "Alc 4.7% vol",
+      "image": "https://www.wishbeer.com/1031-large_default/fuller-s-london-pride-330-ml-47.jpg",
+      "name": "Fuller's London Pride",
+      "price": 135,
+      "volume": "330ml"
+    },
+    {
+      "id": "000024",
+      "alcohol": "Alc 8.4% vol",
+      "image": "https://www.wishbeer.com/912-large_default/kwak-330-ml-84.jpg",
+      "name": "Kwak",
+      "price": 209,
+      "volume": "330ml"
+    },
+    {
+      "id": "000025",
+      "alcohol": "Alc 5.2% vol",
+      "image": "https://www.wishbeer.com/1434-large_default/vedett-extra-blond-330-ml-52.jpg",
+      "name": "Vedett Extra Blond",
+      "price": 170,
+      "volume": "330ml"
+    },
+    {
+      "id": "000026",
+      "alcohol": "Alc 5% vol",
+      "image": "https://www.wishbeer.com/3841-large_default/beerlao-gold-330ml-5.jpg",
+      "name": "Beer Lao Gold",
+      "price": 99,
+      "volume": "330ml"
+    },
+    {
+      "id": "000027",
+      "alcohol": "Alc 8.2% vol",
+      "image": "https://www.wishbeer.com/879-large_default/schneider-weisse-tap6-unser-aventinus-500-ml-82.jpg",
+      "name": "Schneider Weisse TAP6 Unser Aventinus",
+      "price": 200,
+      "volume": "500ml"
+    },
+    {
+      "id": "000028",
+      "alcohol": "Alc 3.0% vol",
+      "image": "https://www.wishbeer.com/1613-large_default/hoegaarden-rosee-750-ml-3.jpg",
+      "name": "Hoegaarden Rosee",
+      "price": 380,
+      "volume": "750ml"
+    },
+    {
+      "id": "000029",
+      "alcohol": "Alc 8.8% vol",
+      "image": "https://www.wishbeer.com/1258-large_default/lion-stout-330-ml-88.jpg",
+      "name": "Lion Stout",
+      "price": 120,
+      "volume": "330ml"
+    },
+    {
+      "id": "000030",
+      "alcohol": "Alc 5.2% vol",
+      "image": "https://www.wishbeer.com/875-large_default/schneider-weisse-tap1-mein-blonde-weisse-500-ml-52.jpg",
+      "name": "Schneider Weisse TAP1 Mein blonde Weisse",
+      "price": 185,
+      "volume": "500ml"
+    },
+    {
+      "id": "000031",
+      "alcohol": "Alc 5.0% vol",
+      "image": "https://www.wishbeer.com/887-large_default/hitachino-nest-weizen-330-ml-5.jpg",
+      "name": "Hitachino Nest Weizen",
+      "price": 173,
+      "volume": "330ml"
+    },
+    {
+      "id": "000032",
+      "alcohol": "Alc 8.0% vol",
+      "image": "https://www.wishbeer.com/952-large_default/gouden-carolus-ambrio-330-ml-8.jpg",
+      "name": "Gouden Carolus Ambrio",
+      "price": 190,
+      "volume": "330ml"
+    },
+    {
+      "id": "000033",
+      "alcohol": "Alc 4.8% vol",
+      "image": "https://www.wishbeer.com/1175-large_default/kostritzer-schwarzbier-330-ml-48.jpg",
+      "name": "Kostritzer Schwarzbier",
+      "price": 98,
+      "volume": "330ml"
+    },
+    {
+      "id": "000034",
+      "alcohol": "Alc 5.2% vol",
+      "image": "https://www.wishbeer.com/4484-large_default/mahanakhon-white-ale-330ml-52.jpg",
+      "name": "Mahanakhon White Ale",
+      "price": 160,
+      "volume": "330ml"
+    },
+    {
+      "id": "000035",
+      "alcohol": "Alc 4.9% vol",
+      "image": "https://www.wishbeer.com/1406-large_default/kirin-640-ml-49.jpg",
+      "name": "Kirin",
+      "price": 120,
+      "volume": "640ml"
+    },
+    {
+      "id": "000036",
+      "alcohol": "Alc 8.0% vol",
+      "image": "https://www.wishbeer.com/1432-large_default/la-chouffe-330-ml-8.jpg",
+      "name": "La Chouffe",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000037",
+      "alcohol": "Alc 4.9% vol",
+      "image": "https://www.wishbeer.com/994-large_default/hoegaarden-big-750-ml-49.jpg",
+      "name": "Hoegaarden (Big)",
+      "price": 339,
+      "volume": "750ml"
+    },
+    {
+      "id": "000038",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/1435-large_default/vedett-extra-ipa-330-ml-55.jpg",
+      "name": "Vedett Extra IPA",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000039",
+      "alcohol": "Alc 3.8% vol",
+      "image": "https://www.wishbeer.com/1433-large_default/liefmans-fruitesse-250-ml-38.jpg",
+      "name": "Liefmans Fruitesse",
+      "price": 145,
+      "volume": "250ml"
+    },
+    {
+      "id": "000040",
+      "alcohol": "Alc 7.5% vol",
+      "image": "https://www.wishbeer.com/890-large_default/hitachino-nest-espresso-stout-330-ml-75.jpg",
+      "name": "Hitachino Nest Espresso Stout",
+      "price": 191,
+      "volume": "330ml"
+    },
+    {
+      "id": "000041",
+      "alcohol": "Alc 8.5% vol",
+      "image": "https://www.wishbeer.com/903-large_default/delirium-tremens-330-ml-85.jpg",
+      "name": "Delirium Tremens",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000042",
+      "alcohol": "Alc 4.5% vol",
+      "image": "https://www.wishbeer.com/1414-large_default/hite-330-ml.jpg",
+      "name": "Hite",
+      "price": 130,
+      "volume": "330ml"
+    },
+    {
+      "id": "000043",
+      "alcohol": "Alc 4.8% vol",
+      "image": "https://www.wishbeer.com/1169-large_default/warsteiner-premium-330-ml-48.jpg",
+      "name": "Warsteiner Premium",
+      "price": 110,
+      "volume": "330ml"
+    },
+    {
+      "id": "000044",
+      "alcohol": "Alc 7.0% vol",
+      "image": "https://www.wishbeer.com/888-large_default/hitachino-nest-red-rice-ale-330-ml-7.jpg",
+      "name": "Hitachino Nest Red Rice Ale",
+      "price": 191,
+      "volume": "330ml"
+    },
+    {
+      "id": "000045",
+      "alcohol": "Alc 5.5% vol",
+      "image": "https://www.wishbeer.com/1452-large_default/coedo-shiro-hefe-333-ml-55.jpg",
+      "name": "Coedo Shiro (Hefe)",
+      "price": 170,
+      "volume": "333ml"
+    },
+    {
+      "id": "000046",
+      "alcohol": "Alc 5.2% vol",
+      "image": "https://www.wishbeer.com/1057-large_default/wells-bombardier-nrb-500ml-52.jpg",
+      "name": "Wells Bombardier NRB",
+      "price": 158,
+      "volume": "500ml"
+    },
+    {
+      "id": "000047",
+      "alcohol": "Alc 8.5% vol",
+      "image": "https://www.wishbeer.com/2045-large_default/stone-ruination-double-ipa-20-355-ml-85.jpg",
+      "name": "Stone Ruination Double IPA 2.0",
+      "price": 229,
+      "volume": "355ml"
+    },
+    {
+      "id": "000048",
+      "alcohol": "Alc 10.0% vol",
+      "image": "https://www.wishbeer.com/901-large_default/delirium-noel-330-ml-10.jpg",
+      "name": "Delirium Noel",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000049",
+      "alcohol": "Alc 8.0% vol",
+      "image": "https://www.wishbeer.com/910-large_default/kasteel-rouge-330-ml-8.jpg",
+      "name": "Kasteel Rouge",
+      "price": 180,
+      "volume": "330ml"
+    },
+    {
+      "id": "000050",
+      "alcohol": "Alc 7.0% vol",
+      "image": "https://www.wishbeer.com/983-large_default/chimay-red-330-ml-7.jpg",
+      "name": "Chimay Red",
+      "price": 260,
+      "volume": "330ml"
+    },
+    {
+      "id": "000051",
+      "alcohol": "Alc 4.5% vol",
+      "image": "https://www.wishbeer.com/897-large_default/blanche-de-namur-330-ml-45.jpg",
+      "name": "Blanche de Namur",
+      "price": 175,
+      "volume": "330ml"
+    },
+    {
+      "id": "000052",
+      "alcohol": "Alc 11.0% vol",
+      "image": "https://www.wishbeer.com/2036-large_default/kasteel-barista-330-ml-11.jpg",
+      "name": "Kasteel Barista",
+      "price": 259,
+      "volume": "330ml"
+    },
+    {
+      "id": "000053",
+      "alcohol": "Alc 5.9% vol",
+      "image": "https://www.wishbeer.com/948-large_default/la-corne-du-bois-des-pendus-330-ml-59.jpg",
+      "name": "La Corne du Bois des Pendus",
+      "price": 200,
+      "volume": "330ml"
+    },
+    {
+      "id": "000054",
+      "alcohol": "Alc 9.0% vol",
+      "image": "https://www.wishbeer.com/951-large_default/gouden-carolus-tripel-330-ml-9.jpg",
+      "name": "Gouden Carolus Tripel",
+      "price": 190,
+      "volume": "330ml"
+    },
+    {
+      "id": "000055",
+      "alcohol": "Alc 5.0% vol",
+      "image": "https://www.wishbeer.com/2987-large_default/brewdog-5am-saint-330-ml-5.jpg",
+      "name": "Brewdog 5am Saint",
+      "price": 195,
+      "volume": "330ml"
+    },
+    {
+      "id": "000056",
+      "alcohol": "Alc 8.0% vol",
+      "image": "https://www.wishbeer.com/978-large_default/brunehaut-triple-gluten-free-330-ml-80.jpg",
+      "name": "Brunehaut Triple",
+      "price": 220,
+      "volume": "330ml"
+    },
+    {
+      "id": "000057",
+      "alcohol": "Alc 6.0% vol",
+      "image": "https://www.wishbeer.com/4470-large_default/preorder-sandport-bang-bang-ipa-330ml-60.jpg",
+      "name": "Sandport Bangbang IPA",
+      "price": 169,
+      "volume": "330ml"
+    },
+    {
+      "id": "000058",
+      "alcohol": "Alc 7.3% vol",
+      "image": "https://www.wishbeer.com/1172-large_default/erdinger-pikantus-500-ml-73.jpg",
+      "name": "Erdinger Pikantus",
+      "price": 189,
+      "volume": "500ml"
+    },
+    {
+      "id": "000059",
+      "alcohol": "Alc 5.0% vol",
+      "image": "https://www.wishbeer.com/895-large_default/bacchus-frambozenbier-375-ml-54.jpg",
+      "name": "Bacchus Frambozenbier",
+      "price": 220,
+      "volume": "375ml"
+    },
+    {
+      "id": "000060",
+      "alcohol": "Alc 8.0% vol",
+      "image": "https://www.wishbeer.com/1443-large_default/mc-chouffe-330-ml-8.jpg",
+      "name": "Mc Chouffe",
+      "price": 200,
+      "volume": "330ml"
+    }
+  ]
+}

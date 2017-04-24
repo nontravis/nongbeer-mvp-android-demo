@@ -1,0 +1,46 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipe_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_order_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/container_empty_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/icon_background_size"
+                android:layout_height="@dimen/icon_background_size"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_padding_margin"
+                android:src="@drawable/ic_empty_order_72dp"/>
+
+            <TextView
+                android:id="@+id/tv_empty_cart"
+                style="@style/BeerTextView.DarkGray.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/your_order_history_is_empty"/>
+        </LinearLayout>
+
+
+        <include layout="@layout/view_service_unavailable"/>
+
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

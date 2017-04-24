@@ -1,0 +1,35 @@
+{
+  "status": "SUCCESS",
+  "message": "Retrieve the list of order successfully.",
+  "nextOrderAvailable": false,
+  "orders": [
+    {
+      "id": "939506",
+      "status": "DELIVERED|UPCOMING",
+      "date": "03/03/2017",
+      "time": "23:04",
+      "totalPrice": 3000,
+      "totalAmount": 20,
+      "location": {
+        "latitude": 13.7413877,
+        "longitude": 100.573252
+      },
+      "beers": [
+        {
+          "id": "93024",
+          "name": "U Beer",
+          "price": 80,
+          "amount": 10,
+          "image": "www.photobucket.com/s93lkewfl/askldjcb03lksdf.jpg"
+        },
+        {
+          "id": "93030",
+          "name": "Singha",
+          "price": 100,
+          "amount": 5,
+          "image": "www.photobucket.com/s93lkewfl/askldjcb03sglkdfdkgjf.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:padding="@dimen/default_padding_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/default_padding_margin_small"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_beer_name"
+                style="@style/BeerTextView.DarkGray.Title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Arrogant Bastard Ale"/>
+
+            <ImageView
+                android:src="@drawable/ic_delete_selector"
+                android:id="@+id/btn_delete_item"
+                android:layout_width="@dimen/default_icon_size_small"
+                android:layout_height="@dimen/default_icon_size_small"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_beer_price"
+            style="@style/BeerTextView.Black.Body2"
+            android:layout_marginBottom="@dimen/default_padding_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_baht"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/default_padding_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_decrease"
+                android:layout_width="@dimen/default_icon_size_large"
+                android:layout_height="@dimen/default_icon_size_large"
+                android:layout_marginEnd="@dimen/default_padding_margin_large"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:src="@drawable/ic_decrease_selector"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_beer_amount"
+                    style="@style/BeerTextView.Black.Header1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center|bottom"
+                    android:text="1"/>
+
+                <TextView
+                    style="@style/BeerTextView.Black.Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/Amount"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_increase"
+                android:layout_width="@dimen/default_icon_size_large"
+                android:layout_height="@dimen/default_icon_size_large"
+                android:layout_marginStart="@dimen/default_padding_margin_large"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:src="@drawable/ic_increase_selector"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

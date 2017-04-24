@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="th.co.thekhaeng.nextzy.fighting.nongbeer"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".NongBeerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".ui.SplashScreenActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ui.map.MapActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+        <activity android:name=".ui.orderdetail.OrderDetailActivity">
+        </activity>
+
+        <activity android:name=".ui.successorder.SuccessOrderActivity">
+        </activity>
+
+    </application>
+
+</manifest>

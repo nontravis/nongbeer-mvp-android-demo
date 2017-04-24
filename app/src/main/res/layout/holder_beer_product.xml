@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clickable="true"
+    app:cardCornerRadius="0dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:clickable="false"
+            android:id="@+id/img_beer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/beer_product_height"
+            android:maxHeight="150dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            tools:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/default_padding_margin"
+            android:paddingStart="@dimen/default_padding_margin"
+            android:paddingEnd="@dimen/default_padding_margin" >
+            <TextView
+                android:id="@+id/tv_beer_name"
+                style="@style/BeerTextView.DarkGray.Title"
+                android:layout_width="wrap_content"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding_margin"
+                android:text="Hoegaarden"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_padding_margin"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_beer_volume"
+                        style="@style/BeerTextView.Black.Body2"
+                        android:layout_width="wrap_content"
+                        android:clickable="false"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/default_padding_margin_small"
+                        android:text="300 ml"/>
+
+                    <TextView
+                        android:id="@+id/tv_beer_percent"
+                        style="@style/BeerTextView.Black.Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="5% alc/vol"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_beer_price"
+                    style="@style/BeerTextView.Accent.Header1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:text="@string/zero_baht"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_to_cart"
+            android:layout_margin="@dimen/default_padding_margin"
+            style="@style/BeerButton.Active"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_product_height"
+            android:text="@string/add_to_order"/>
+
+        <Button
+            android:id="@+id/btn_added"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_margin="@dimen/default_padding_margin"
+            style="@style/BeerButton.Active.Boarder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_product_height"
+            android:text="@string/added"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

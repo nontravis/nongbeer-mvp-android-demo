@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <LinearLayout
+            android:id="@+id/container_empty_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/icon_background_size"
+                android:layout_height="@dimen/icon_background_size"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_padding_margin"
+                android:src="@drawable/ic_empty_cart_72dp"/>
+
+            <TextView
+                android:id="@+id/tv_empty_cart"
+                style="@style/BeerTextView.DarkGray.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cart_is_empty" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_top"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_padding_margin_large"
+                android:layout_marginStart="@dimen/default_padding_margin_large"
+                android:layout_marginTop="@dimen/default_padding_margin"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    style="@style/BeerTextView.Black.Header1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/default_padding_margin"
+                    android:text="@string/total"/>
+
+                <TextView
+                    android:id="@+id/tv_total_price"
+                    style="@style/BeerTextView.Red.Header1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero_baht"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_confirm_order"
+                style="@style/BeerTextView.Black.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding_margin"
+                android:stateListAnimator="@null"
+                android:text="@string/confirm_order"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

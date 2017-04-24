@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BeerTextView">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+
+
+    <style name="BeerEditTextView.Black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey_dark</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="BeerEditTextView">
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="android:maxLength">150</item>
+    </style>
+
+    <style name="BeerEditTextView.White">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey_dark</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+
+    <style name="BeerTextView.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BeerTextView.White.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.White.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.White.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.White.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.White.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.White.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+    <style name="BeerTextView.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BeerTextView.Black.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.Black.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.Black.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.Black.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.Black.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.Black.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+    <style name="BeerTextView.DarkGray">
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+    <style name="BeerTextView.DarkGray.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.DarkGray.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.DarkGray.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.DarkGray.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.DarkGray.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.DarkGray.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+    <style name="BeerTextView.LightGray">
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+
+    <style name="BeerTextView.LightGray.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.LightGray.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.LightGray.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.LightGray.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.LightGray.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.LightGray.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+    <style name="BeerTextView.Accent">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="BeerTextView.Accent.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.Accent.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.Accent.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.Accent.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.Accent.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.Accent.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+    <style name="BeerTextView.Red">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="BeerTextView.Red.Header1">
+        <item name="android:textSize">@dimen/text_headline_1</item>
+    </style>
+    <style name="BeerTextView.Red.Header2">
+        <item name="android:textSize">@dimen/text_headline_2</item>
+    </style>
+    <style name="BeerTextView.Red.Title" >
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="BeerTextView.Red.Body1">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+    <style name="BeerTextView.Red.Body2">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+    <style name="BeerTextView.Red.Body3">
+        <item name="android:textSize">@dimen/text_body_3</item>
+    </style>
+
+</resources>
