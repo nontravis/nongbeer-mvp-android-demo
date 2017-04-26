@@ -120,6 +120,7 @@ public class BeerProductFragment extends
     @Override
     public void onClearAddedButtonAllStateEvent(){
         beerAdapter.clearAddedStateAll();
+        rvBeer.smoothScrollToPosition(0);
     }
 
     @Override
