@@ -2,6 +2,11 @@
 
 Showcase app that how to build an app from scratch from - Android Team
 
+<img src="./picture/logo.png">
+
+
+![gif](./picture/2560-04-26_12_51_32.gif)
+
 
 <a href="https://www.slideshare.net/nonthawit/nongbeer-mvp-demo-application
 " target="_blank">
