@@ -66,13 +66,13 @@ public class BeerProductFragmentPresenterUnitTest{
 
     @Test
     public void register_rx(){
-        spyPresenter.onViewStart();
+        spyPresenter.onViewCreate();
         verify( RxBus.get(), times( 1 ) ).register( spyPresenter );
     }
 
     @Test
     public void unregister_rx(){
-        spyPresenter.onViewStop();
+        spyPresenter.onViewDestroy();
         verify( RxBus.get(), times( 1 ) ).unregister( spyPresenter );
     }
 

@@ -35,12 +35,12 @@ public class BeerProductFragmentPresenter extends BaseMvpPresenter<BeerProductFr
     }
 
     @Override
-    public void onViewStart(){
+    public void onViewCreate(){
         RxBus.get().register( this );
     }
 
     @Override
-    public void onViewStop(){
+    public void onViewDestroy(){
         RxBus.get().unregister( this );
     }
 

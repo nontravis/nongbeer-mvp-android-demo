@@ -145,15 +145,6 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
         rvCart.setAdapter( cartAdapter );
     }
 
-    @NonNull
-    private View.OnClickListener onClickCart(){
-        return new View.OnClickListener(){
-            @Override
-            public void onClick( View v ){
-                menu.showMenu();
-            }
-        };
-    }
 
     @Override
     public void initialize(){
@@ -217,6 +208,7 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
     private void clearOrder(){
         cartAdapter.removeAllItems();
         updateAllCartView();
+        menu.showContent();
         getPresenter().clearAddedButtonStateAllEvent();
     }
 
@@ -279,6 +271,16 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
             @Override
             public void onClick( View v ){
                 goToMapActivity( cartAdapter.getItems() );
+            }
+        };
+    }
+
+    @NonNull
+    private View.OnClickListener onClickCart(){
+        return new View.OnClickListener(){
+            @Override
+            public void onClick( View v ){
+                menu.toggle();
             }
         };
     }
