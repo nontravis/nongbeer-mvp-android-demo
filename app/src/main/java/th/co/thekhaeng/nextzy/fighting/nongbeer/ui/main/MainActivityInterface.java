@@ -24,6 +24,11 @@ public class MainActivityInterface{
 
         void onRemoveBeerFromCartEvent( BeerProductItem item );
 
+        boolean hasItems();
+
+        void showProductItemView();
+
+        void hindProductItemView();
     }
 
     public interface Presenter extends  BaseMvpInterface.Presenter<MainActivityInterface.View>{
@@ -33,5 +38,7 @@ public class MainActivityInterface{
         void clearAddedButtonStateEvent( BeerProductItem item );
 
         void clearAddedButtonStateAllEvent();
+
+        void updateEmptyCartView();
     }
 }

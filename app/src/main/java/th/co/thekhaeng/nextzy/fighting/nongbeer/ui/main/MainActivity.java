@@ -105,7 +105,7 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
         setupViewPager();
         setupTabLayout();
         setupCart();
-        updateEmptyCartView();
+        updateAllCartView();
     }
 
 
@@ -214,8 +214,8 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
 
     private void updateAllCartView(){
         updateBeerAmountIntoCartView();
-        updateEmptyCartView();
         updateTotalPrice();
+        getPresenter().updateEmptyCartView();
     }
 
     private void updateBeerAmountIntoCartView(){
@@ -224,16 +224,24 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
         tvBeerAmount.setText( String.valueOf( amount ) );
     }
 
-    private void updateEmptyCartView(){
-        if( cartAdapter.hasItems() ){
-            containerEmpty.setVisibility( GONE );
-            btnConfirmOrder.setEnabled( true );
-            btnConfirmOrder.setBackgroundResource( R.drawable.btn_active_selector );
-        }else{
-            containerEmpty.setVisibility( View.VISIBLE );
-            btnConfirmOrder.setEnabled( false );
-            btnConfirmOrder.setBackgroundResource( R.drawable.btn_inactive );
-        }
+
+    @Override
+    public boolean hasItems(){
+        return cartAdapter.hasItems();
+    }
+
+    @Override
+    public void showProductItemView(){
+        containerEmpty.setVisibility( GONE );
+        btnConfirmOrder.setEnabled( true );
+        btnConfirmOrder.setBackgroundResource( R.drawable.btn_active_selector );
+    }
+
+    @Override
+    public void hindProductItemView(){
+        containerEmpty.setVisibility( View.VISIBLE );
+        btnConfirmOrder.setEnabled( false );
+        btnConfirmOrder.setBackgroundResource( R.drawable.btn_inactive );
     }
 
     @SuppressLint( "SetTextI18n" )

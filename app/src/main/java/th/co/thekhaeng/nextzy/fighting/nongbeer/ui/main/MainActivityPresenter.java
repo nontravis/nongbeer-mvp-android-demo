@@ -66,4 +66,13 @@ public class MainActivityPresenter
         getView().onRemoveBeerFromCartEvent( event.getItem() );
     }
 
+    @Override
+    public void updateEmptyCartView(){
+        if( getView().hasItems() ){
+            getView().showProductItemView();
+        }else{
+            getView().hindProductItemView();
+        }
+    }
+
 }
