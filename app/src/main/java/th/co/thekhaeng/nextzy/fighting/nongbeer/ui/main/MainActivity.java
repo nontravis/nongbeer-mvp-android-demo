@@ -145,7 +145,6 @@ public class MainActivity extends BaseMvpActivity<MainActivityInterface.Presente
         rvCart.setAdapter( cartAdapter );
     }
 
-
     @Override
     public void initialize(){
 
